@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to simple coding Quiz");
+            Console.WriteLine("Please Enter your name");
+            string Name = Console.ReadLine();
+            Console.Write("What does HTML stand for?");
+            string answer = Console.ReadLine();
+            if (answer.ToLower() == "hyper text markup language")
+            {
+                Console.WriteLine("Your answer is right. Press enter to exit");
+            }
+            else
+            {
+                Console.WriteLine("Your answer is wrong. Right answer is hyper text markup language. Press enter to exit");
+            }
+        }
+    }
+}
